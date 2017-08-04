@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemTinTucTaiChinh"
+        android:title="Finacial News"
+        
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/itemTinTucThiTruong"
+        android:title="Market News"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/itemDuBaoThoiTiet"
+        android:title="Weather News"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <color name="colorGray">#d2d2d2</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="bgToolbar">#286090</color>
+    <color name="bgLogo">#f67122</color>
+    <color name="androidcolor">#227af6</color>
+</resources>

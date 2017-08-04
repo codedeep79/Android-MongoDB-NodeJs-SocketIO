@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Chuyển các title của ViewPager từ in hoa về bình thường-->
+    <style name="capfale" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">true</item>
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Khi click vào item viewpager, nó sẽ thay đổi màu, Do ảnh hưởng của toolbar nên
+            không đổi thành màu trắng được nên phải đổi hết màu text của toolbar bao gồm menu
+            với style - menu_item_color-->
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="menu_item_color" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="drawerArrowStyle">@style/changecolordrawertoogle</item>
+    </style>
+    <style name="changecolordrawertoogle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/bgToolbar</item>
+    </style>
+
+
+
+
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base">
+
+    </style>
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Thay đổi định dạng Title, windowActionBar-->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Màu Menu -->
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <!-- Màu Mặc định -->
+        <item name="android:textColorSecondary">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+
+</resources>
